@@ -5,10 +5,17 @@ Install vagrant and virtualbox. Edit the file named Vagrantfile to create 3 VM's
 ``` vagrant up ``` 
 
 Note: you can use Vagrant with provisions to use a different file than the default one. Each VM has its own file system. To allow for name 
-resolution edit the file /etc/hosts/ of the control VM by adding <IP of VM> <Name of VM>.
+resolution edit the file /etc/hosts/ of the control VM.
 
-Firstly you will have to ssh to control ```vagrant ssh 192.168.56.9```
-then ```nano /etc/hosts/```
+Firstly you will have to ssh to control VM from the command line
+```
+vagrant ssh 192.168.56.9
+```
+
+then eidt /etc/hosts
+```
+nano /etc/hosts
+```
 then add the following lines (for this specific project)
 
 ``` 
