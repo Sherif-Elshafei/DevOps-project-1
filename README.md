@@ -87,7 +87,7 @@ cd docker
 docker-compose up
 ```
 
-this will supply the file docker-compose.yml
+this command will be supplied with the file docker-compose.yml
 
 ### Scenario 2: running application under docker swarm orchestration
 ![mod2](https://github.com/Sherif-Elshafei/DevOps-project-1/assets/4324447/9d3c1672-514f-4578-beb8-090697072a13)
@@ -95,7 +95,7 @@ this will supply the file docker-compose.yml
 We can make nodes join a docker swarm orchestration (basically to control more than one server running the application). First swarm has to be created and nodes joined. 
 
 ```
-ansible-playbook -i myhosts -K swarm.yml
+ansible-playbook -i myhosts1 -K swarm.yml
 ```
 
 then a swarm node can run the application:
