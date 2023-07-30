@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  web:
+    #build: . <use this when running the container with docker-compose>
+    image: devopsjourney1/myflaskimg:1  #<use this when running the container
+                                        #with Docker swarm>
+    ports:
+      - "5000:5000"
