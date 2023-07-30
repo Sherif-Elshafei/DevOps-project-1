@@ -1,8 +1,10 @@
 # DevOps-project-1
 System: Linux Mint 21 (ubuntu-22.04 kernel)
 ## Create VMs
-Install vagrant and virtualbox. Edit the file named Vagrantfile to create 3 VM's. This file will be supplied by default to the command: 
-``` vagrant up ``` 
+Install vagrant and virtualbox. Edit the file named Vagrantfile to create 3 VM's. This file will be supplied by default to the command:
+``` 
+vagrant up 
+``` 
 
 Note: you can use Vagrant with provisions to use a different file than the default one. Each VM has its own file system. To allow for name 
 resolution edit the file /etc/hosts/ of the control VM.
